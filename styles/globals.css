@@ -1,0 +1,48 @@
+/* Menu dashboard */
+.menu--dashboard {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu--dashboard li {
+    margin-top: 3px;
+    padding: 0px 5px 0 0;
+}
+
+.menu--dashboard li a {
+    text-decoration: none;
+}
+
+/* Container */
+.container {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-full {
+    display: flex;
+    width: 100%;
+}
+
+.block {
+    width: calc(100% - 300px);
+    display: block;
+    flex: 1
+}
+
+/* Filters */
+.containerViewOc {
+    width: 100%;
+    position: relative;
+    border: solid 1px #ccc;
+    border-bottom: 0;
+    border-left: 0;
+    margin-top: 2rem;
+    background-color: white;
+    overflow-y: scroll;
+    height: calc(100vh - 200px);
+}
