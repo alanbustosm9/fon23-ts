@@ -8,10 +8,10 @@ import { DashboardLayout } from "../../components/layouts";
 // import { Loader } from "../../components/ui";
 
 //Service
-import {
-  homeApi,
-  // useGetHomeQuery
-} from "../../services/home";
+// import {
+//   homeApi,
+//   // useGetHomeQuery
+// } from "../../services/home";
 
 //Material
 import { Box, Grid } from "@mui/material";
@@ -21,9 +21,9 @@ const HomePage: NextPage = () => {
 
   // const { isLoading, error , isError} = useGetHomeQuery();
 
-  const resetState = (): void => {
-    dispatch(homeApi.util.resetApiState());
-  };
+  // const resetState = (): void => {
+  //   dispatch(homeApi.util.resetApiState());
+  // };
 
   return (
     <DashboardLayout title={"Fon23 Dashboard"}>
